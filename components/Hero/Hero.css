@@ -1,0 +1,12 @@
+.hero {
+  background: url('./hero-banner-img.png') rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top -10px right 0px;
+  height: 290px;
+  padding: 0 40px;
+  color: var(--contrast-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
