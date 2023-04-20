@@ -2,7 +2,9 @@ import './ProductsGrid.css';
 import products from '../../utils/products';
 
 const template = () => {
-  return ` ${products.map(
+  return ` 
+  <h3>The Walnut Desk Collection</h3>
+  ${products.map(
     ({ name, price, image, imageHover }) => `
       <article class="shop-product">
                   <a

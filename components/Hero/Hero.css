@@ -1,5 +1,5 @@
 .hero {
-  background: url('./public/hero-banner-img.png') rgba(0, 0, 0, 0.2);
+  background: url('/hero-banner-img.png') rgba(0, 0, 0, 0.2);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: top -10px right 0px;
