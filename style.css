@@ -12,7 +12,7 @@
   --da-color-primary-dark: #213547;
   --da-color-secondary: #a0a0a0;
   --da-color-navbar-border: #f0f0f0;
-  --da-color-shadow: rgba(0, 0, 0, 0.16);
+  --da-color-background-light: #f9f9f9;
 
   /* FONT SIZE */
   --da-typography-h1: 1.75rem;
@@ -62,6 +62,11 @@ body {
   font-weight: 300;
   letter-spacing: 0.05em;
   text-align: center;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 h1,

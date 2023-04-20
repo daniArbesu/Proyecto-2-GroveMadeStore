@@ -7,48 +7,42 @@ const template = `
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/shop/"
+          href="#"
           >Shop</a
         >
       </li>
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/explore/"
+          href="#"
           >About</a
         >
       </li>
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/journal/"
+          href="#"
           >Journal</a
         >
       </li>
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/support/"
+          href="#"
           >Support</a
         >
       </li>
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/covid-19-update/"
+          href="#"
           >COVID-19 Info</a
         >
       </li>
       <li>
         <a
           rel="nofollow noopener noreferrer"
-          target="_blank"
-          href="https://grovemade.com/support/order-status/"
+          href="#"
           >Order Status</a
         >
       </li>
@@ -80,8 +74,7 @@ const template = `
     <a
       rel="nofollow noopener noreferrer"
       class="social-media__link"
-      target="_blank"
-      href="https://www.facebook.com/grovemade"
+      href="#"
       ><img
         src="https://grovemade.com/static/img/icons/facebook.svg?_v=1502333300.56"
         alt="Facebook Profile"
@@ -89,8 +82,7 @@ const template = `
     <a
       rel="nofollow noopener noreferrer"
       class="social-media__link"
-      target="_blank"
-      href="https://instagram.com/grovemade"
+      href="#"
       ><img
         src="https://grovemade.com/static/img/icons/instagram.svg?_v=1502333300.56"
         alt="Instagram Profile"
@@ -98,8 +90,7 @@ const template = `
     <a
       rel="nofollow noopener noreferrer"
       class="social-media__link"
-      target="_blank"
-      href="https://www.linkedin.com/company/grove-llc/"
+      href="#"
       ><img
         src="https://grovemade.com/static/img/icons/linkedin.svg?_v=1525642239.94"
         alt="linkedin Profile"
@@ -108,14 +99,12 @@ const template = `
   <div class="copyright-links">
     <p>©2020 Grovemade</p>
     <a
-      href="https://grovemade.com/support/policies/"
-      target="_blank"
+      href="#"
       rel="nofollow noopener noreferrer"
       >Terms & Conditions</a
     >
     <a
-      href="https://grovemade.com/privacy-policy/"
-      target="_blank"
+      href="#"
       rel="nofollow noopener noreferrer"
       >Privacy Policy</a
     >

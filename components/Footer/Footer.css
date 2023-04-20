@@ -1,6 +1,7 @@
 footer {
-  background: #f9f9f9;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: var(--da-color-background-light);
+  font-family: var(--da-typography-heading-typeface);
+  color: var(--da-color-primary-dark);
   padding: 0px 90px;
   padding-top: 60px;
   padding-bottom: 20px;
@@ -33,7 +34,7 @@ footer {
   font-size: 12px;
   font-style: italic;
   border: none;
-  background: #f9f9f9;
+  background: var(--da-color-background-light);
 }
 
 .newsletter-email > button {
