@@ -17,6 +17,7 @@
   /* FONT SIZE */
   --da-typography-h1: 1.75rem;
   --da-typography-h2: 1.625rem;
+  --da-typography-h3: 1.625rem;
   --da-typography-p: 0.8125rem;
   --da-typography-typeface: 'Arial, Helvetica, sans-serif';
   --da-typography-heading-typeface: 'Georgia, Times New Roman, Times, serif';
@@ -40,8 +41,7 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--da-color-primary-light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -94,7 +94,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: var(--da-typography-h3);
 }
 
 h4 {
