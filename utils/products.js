@@ -28,6 +28,76 @@ const products = [
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
     imageHover:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+  },
+  {
+    name: 'Walnut Desk Shelf (Large)',
+    price: 260,
+    seller: 'Grovemade-Desk',
+    new: false,
+    image:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+    imageHover:
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
   }
 ];
 
