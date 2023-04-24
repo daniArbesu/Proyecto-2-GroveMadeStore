@@ -30,24 +30,24 @@ const products = [
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut MacBook Dock',
+    price: 130,
+    seller: 'Grovemade-Tools',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-macbook-dock-2-walnut-gridX-A2.jpg%3F_v%3D1644011691.16?auto=format&ixlib=python-1.1.2&w=300&s=12898c5842fb82060197ba5c8b3d9f24',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-macbook-dock-2-walnut-gridX-B2.jpg%3F_v%3D1644011691.16?auto=format&ixlib=python-1.1.2&w=300&s=26348657c93526c05a08006b7157cb2c'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut iPad Stand',
+    price: 140,
+    seller: 'Grovemade-Stand',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-ipad-stand-gridA-A3.jpg%3F_v%3D1603831992.02?auto=format&ixlib=python-1.1.2&w=300&s=39b63583b1f1ce715e098afbb9293c85',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-ipad-stand-gridA-B2.jpg%3F_v%3D1603831992.02?auto=format&ixlib=python-1.1.2&w=300&s=6ca48e21b3ad80c365c735f51d9f195e'
   },
   {
     name: 'Walnut Desk Shelf (Large)',
