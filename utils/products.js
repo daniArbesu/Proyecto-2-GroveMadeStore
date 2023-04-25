@@ -50,54 +50,54 @@ const products = [
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-ipad-stand-gridA-B2.jpg%3F_v%3D1603831992.02?auto=format&ixlib=python-1.1.2&w=300&s=6ca48e21b3ad80c365c735f51d9f195e'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut Monitor Stand',
+    price: 150,
+    seller: 'Grovemade-Stand',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-monitor-stand-grid-A8.jpg%3F_v%3D1624506351.47?auto=format&ixlib=python-1.1.2&w=700&s=ce845a7ed3f1ff2b9d110be7f7c23a40',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-monitor-stand-grid-B4.jpg%3F_v%3D1624506681.78?auto=format&ixlib=python-1.1.2&w=700&s=9f3c4c56a916e521a39bc7e8ac8ac2da'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut Laptop Stand',
+    price: 200,
+    seller: 'Grovemade-Stand',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-laptop-stand-grid-A3.jpg%3F_v%3D1624506360.44?auto=format&ixlib=python-1.1.2&w=700&s=9d51222770127fd58b78530b640fe715',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-laptop-stand-gal-G3.jpg%3F_v%3D1624507495.26?auto=format&ixlib=python-1.1.2&w=700&s=94f43c0c1abe41bbb273a1a6673a8509'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut Headphone Stand',
+    price: 180,
+    seller: 'Grovemade-Stand',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-headphone-stand-grid-A2.jpg%3F_v%3D1622041949.64?auto=format&ixlib=python-1.1.2&w=300&s=c8c51190a7484987d83afe9f0eb0fa50',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-headphone-stand-grid-B2.jpg%3F_v%3D1622041949.64?auto=format&ixlib=python-1.1.2&w=300&s=7a494dc9d636cf847478ac10d59c4639'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Walnut MagSafe Stand',
+    price: 155,
+    seller: 'Grovemade-Stand',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-magsafe-dock-grid-A2.jpg%3F_v%3D1620162209.66?auto=format&ixlib=python-1.1.2&w=700&s=27d78f9e1f5ce08ceae20c71a1717fc2',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-magsafe-dock-grid-B2.jpg%3F_v%3D1620162209.66?auto=format&ixlib=python-1.1.2&w=700&s=5215b6324c55ee43677444d04d07bdff'
   },
   {
-    name: 'Walnut Desk Shelf (Large)',
-    price: 260,
-    seller: 'Grovemade-Desk',
+    name: 'Brass Pen',
+    price: 100,
+    seller: 'Grovemade-Others',
     new: false,
     image:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fpen-brass-gridA-A2.jpg%3F_v%3D1566339160.05?auto=format&ixlib=python-1.1.2&w=300&s=4ee290e2595b71d65e3199944fa2012a',
     imageHover:
-      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-B1_0kn2etL.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=c0a7ca2393d9db06b3f6aad8e817d650'
+      'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fpen-brass-gridA-B2.jpg%3F_v%3D1566339160.05?auto=format&ixlib=python-1.1.2&w=300&s=428d2490bf702f51564dc8effac2b89b'
   }
 ];
 
