@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   {
     name: 'Walnut Desk Shelf (Small)',
     price: 160,
@@ -32,7 +32,7 @@ const products = [
   {
     name: 'Walnut MacBook Dock',
     price: 130,
-    seller: 'Grovemade-Tools',
+    seller: 'Grovemade-Others',
     newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-macbook-dock-2-walnut-gridX-A2.jpg%3F_v%3D1644011691.16?auto=format&ixlib=python-1.1.2&w=300&s=12898c5842fb82060197ba5c8b3d9f24',
@@ -101,4 +101,4 @@ const products = [
   }
 ];
 
-export default products;
+export const sellers = ['Grovemade-Desk', 'Grovemade-Others', 'Grovemade-Stand'];

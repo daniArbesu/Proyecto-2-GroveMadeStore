@@ -1,5 +1,5 @@
 import './ProductsGrid.css';
-import products from '../../utils/products';
+import { products } from '../../utils/products';
 
 const template = () => {
   return ` 
