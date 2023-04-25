@@ -101,4 +101,4 @@ export const products = [
   }
 ];
 
-export const sellers = ['Grovemade-Desk', 'Grovemade-Others', 'Grovemade-Stand'];
+export const sellers = ['All', 'Grovemade-Desk', 'Grovemade-Others', 'Grovemade-Stand'];

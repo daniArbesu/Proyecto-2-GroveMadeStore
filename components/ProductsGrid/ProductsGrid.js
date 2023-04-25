@@ -1,7 +1,6 @@
 import './ProductsGrid.css';
-import { products } from '../../utils/products';
 
-const template = () => {
+const template = (products) => {
   return ` 
   <h3>The Walnut Desk Collection</h3>
   <section id="products-grid" class="products-grid">
@@ -39,8 +38,8 @@ const template = () => {
     `;
 };
 
-const printProductsGrid = () => {
-  document.querySelector('#products').innerHTML = template();
+const printProductsGrid = (products) => {
+  document.querySelector('#products').innerHTML = template(products);
 };
 
 export default printProductsGrid;
