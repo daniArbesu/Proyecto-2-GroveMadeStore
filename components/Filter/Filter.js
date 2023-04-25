@@ -22,8 +22,12 @@ const listeners = () => {
 
   select.onchange = (e) => {
     const filteredSeller = e.target.value;
-    const filteredProducts = products.filter((product) => product.seller === filteredSeller);
-    printProductsGrid(filteredProducts);
+    if (filteredSeller === 'All') {
+      printProductsGrid(products);
+    } else {
+      const filteredProducts = products.filter((product) => product.seller === filteredSeller);
+      printProductsGrid(filteredProducts);
+    }
   };
 };
 
