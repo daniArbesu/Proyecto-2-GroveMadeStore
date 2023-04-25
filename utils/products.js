@@ -3,7 +3,7 @@ const products = [
     name: 'Walnut Desk Shelf (Small)',
     price: 160,
     seller: 'Grovemade-Desk',
-    new: true,
+    newProduct: true,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-ply-small-gridX-B1.jpg%3F_v%3D1657735021.23?auto=format&ixlib=python-1.1.2&w=700&s=6fabeb008f4833d51d692d7a5dba670a',
     imageHover:
@@ -13,7 +13,7 @@ const products = [
     name: 'Walnut Desk Shelf (Medium)',
     price: 200,
     seller: 'Grovemade-Desk',
-    new: true,
+    newProduct: true,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-ply-medium-gridX-B1_o7SlR0h.jpg%3F_v%3D1657735111.79?auto=format&ixlib=python-1.1.2&w=500&s=f0d2404a1f6682d5ab6fa173d2f90422',
     imageHover:
@@ -23,7 +23,7 @@ const products = [
     name: 'Walnut Desk Shelf (Large)',
     price: 260,
     seller: 'Grovemade-Desk',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-desk-shelf-walnut-gridX-A1_tbx2Gnu.jpg%3F_v%3D1635183066.0?auto=format&ixlib=python-1.1.2&w=500&s=e155147988246bbb28781a164bfd6b9d',
     imageHover:
@@ -33,7 +33,7 @@ const products = [
     name: 'Walnut MacBook Dock',
     price: 130,
     seller: 'Grovemade-Tools',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fgrovemade-macbook-dock-2-walnut-gridX-A2.jpg%3F_v%3D1644011691.16?auto=format&ixlib=python-1.1.2&w=300&s=12898c5842fb82060197ba5c8b3d9f24',
     imageHover:
@@ -43,7 +43,7 @@ const products = [
     name: 'Walnut iPad Stand',
     price: 140,
     seller: 'Grovemade-Stand',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-ipad-stand-gridA-A3.jpg%3F_v%3D1603831992.02?auto=format&ixlib=python-1.1.2&w=300&s=39b63583b1f1ce715e098afbb9293c85',
     imageHover:
@@ -53,7 +53,7 @@ const products = [
     name: 'Walnut Monitor Stand',
     price: 150,
     seller: 'Grovemade-Stand',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-monitor-stand-grid-A8.jpg%3F_v%3D1624506351.47?auto=format&ixlib=python-1.1.2&w=700&s=ce845a7ed3f1ff2b9d110be7f7c23a40',
     imageHover:
@@ -63,7 +63,7 @@ const products = [
     name: 'Walnut Laptop Stand',
     price: 200,
     seller: 'Grovemade-Stand',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-desk-collection-laptop-stand-grid-A3.jpg%3F_v%3D1624506360.44?auto=format&ixlib=python-1.1.2&w=700&s=9d51222770127fd58b78530b640fe715',
     imageHover:
@@ -73,7 +73,7 @@ const products = [
     name: 'Walnut Headphone Stand',
     price: 180,
     seller: 'Grovemade-Stand',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-headphone-stand-grid-A2.jpg%3F_v%3D1622041949.64?auto=format&ixlib=python-1.1.2&w=300&s=c8c51190a7484987d83afe9f0eb0fa50',
     imageHover:
@@ -83,7 +83,7 @@ const products = [
     name: 'Walnut MagSafe Stand',
     price: 155,
     seller: 'Grovemade-Stand',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fwalnut-magsafe-dock-grid-A2.jpg%3F_v%3D1620162209.66?auto=format&ixlib=python-1.1.2&w=700&s=27d78f9e1f5ce08ceae20c71a1717fc2',
     imageHover:
@@ -93,7 +93,7 @@ const products = [
     name: 'Brass Pen',
     price: 100,
     seller: 'Grovemade-Others',
-    new: false,
+    newProduct: false,
     image:
       'https://grovemade.imgix.net/https%3A%2F%2Fgrovemade.com%2Fshop-static%2Fshop%2Fvariant%2Fpen-brass-gridA-A2.jpg%3F_v%3D1566339160.05?auto=format&ixlib=python-1.1.2&w=300&s=4ee290e2595b71d65e3199944fa2012a',
     imageHover:

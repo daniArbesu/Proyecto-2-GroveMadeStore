@@ -1,3 +1,7 @@
+.products {
+  padding: 40px 0;
+}
+
 .products-grid {
   background-color: white;
   display: grid;
@@ -10,6 +14,30 @@
 
   margin-top: 24px;
   padding: 0 15px;
+}
+
+.shop-product {
+  color: #666;
+  position: relative;
+  overflow: hidden;
+}
+
+.shop-product__badge {
+  position: absolute;
+  top: -7px;
+  right: -30px;
+  color: #fff;
+  background: #9aa8b1;
+  width: 80px;
+  line-height: 59px;
+  font-size: 11px;
+  text-align: center;
+  height: 40px;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  z-index: 2;
 }
 
 .shop-product__img .shop-product-alternative {
@@ -55,5 +83,8 @@
 }
 
 .shop-product__description > p {
+  margin: 0;
+}
+.shop-product__description > h4 {
   margin: 0;
 }

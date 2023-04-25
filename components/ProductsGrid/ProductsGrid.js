@@ -7,8 +7,9 @@ const template = () => {
   <section id="products-grid" class="products-grid">
   ${products
     .map(
-      ({ name, price, image, imageHover }) => `
+      ({ name, price, image, imageHover, newProduct }) => `
       <article class="shop-product">
+                ${newProduct ? '<div class="shop-product__badge">NEW</div>' : ''}
                   <a
                     href="#"
                     rel="nofollow noopener noreferrer"
