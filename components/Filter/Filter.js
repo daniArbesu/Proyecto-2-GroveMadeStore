@@ -12,6 +12,8 @@ const template = `
 <br>
 <input type="number">
 <button>Search</button>
+<br>
+<button>Clean Filters</button>
 </div>
     `;
 
