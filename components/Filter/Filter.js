@@ -11,14 +11,14 @@ const template = `
 <img class="filter-bar__x" id="filter-bar__x"src="https://grovemade.com/static/img/icons/x.svg?_v=1500009016.84" alt="Close button" aria-label="Close Filter">
 </div>
 <div class="filter__menu-mobile" id="filter__menu-mobile">
-<select id="seller-select">
+<select id="seller-select" class="seller-select">
   ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`)}
 </select>
 <br>
 <input type="number" placeholder="Max. price $" id="maxprice-filter">
-<button id="filter-search">Search</button>
+<button id="filter-search" class="cta">Search</button>
 <br>
-<button id="clean-filter">Clean Filters</button>
+<button id="clean-filter" class="cta">Clean Filters</button>
 </div>
     `;
 

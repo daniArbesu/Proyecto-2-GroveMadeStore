@@ -21,11 +21,32 @@
   display: none;
 }
 
+.seller-select {
+  font-size: 0.9rem;
+  margin: 2rem 2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cta {
+  border: 0;
+  background-color: inherit;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 @media screen and (min-width: 576px) {
   .filter-bar > span {
     font-size: 16px;
   }
   .filter-bar > img {
     width: 11px;
+  }
+  .cta {
+    font-size: 14px;
   }
 }
