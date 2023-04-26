@@ -6,7 +6,6 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   text-align: left;
@@ -87,4 +86,12 @@
 }
 .shop-product__description > h4 {
   margin: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 50px;
+    grid-column-gap: 30px;
+  }
 }
