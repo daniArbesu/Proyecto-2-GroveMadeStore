@@ -58,8 +58,7 @@
 .shop-product__img {
   position: relative;
   display: flex;
-  padding: 65px 0;
-  height: 70%;
+  padding: 40px 0;
   margin-bottom: 20px;
 }
 
@@ -81,9 +80,6 @@
   z-index: 2;
 }
 
-.shop-product__description > p {
-  margin: 0;
-}
 .shop-product__description > h4 {
   margin: 0;
 }
