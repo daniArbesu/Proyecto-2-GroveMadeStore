@@ -14,8 +14,10 @@ const template = `
 <select id="seller-select" class="seller-select">
   ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`)}
 </select>
+<div class="price-filter-wrapper">
 <input type="number" placeholder="Max. price $" id="maxprice-filter">
 <button id="filter-search" class="cta">Search</button>
+</div>
 <button id="clean-filter" class="cta">Clean Filters</button>
 </div>
     `;
