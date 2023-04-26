@@ -10,15 +10,18 @@ const template = `
   ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`)}
 </select>
 <br>
-<input type="number">
-<button>Search</button>
+<input type="number" placeholder="Max. price $" id="maxprice-filter">
+<button id="filter-search">Search</button>
 <br>
-<button>Clean Filters</button>
+<button id="clean-filter">Clean Filters</button>
 </div>
     `;
 
 const listeners = () => {
   const select = document.querySelector('#seller-select');
+  const maxpriceInput = document.querySelector('#maxprice-filter');
+  const filterButton = document.querySelector('#filter-search');
+  const clearFiltersButton = document.querySelector('#clean-filter');
 
   select.onchange = (e) => {
     const filteredSeller = e.target.value;
@@ -28,6 +31,25 @@ const listeners = () => {
       const filteredProducts = products.filter((product) => product.seller === filteredSeller);
       printProductsGrid(filteredProducts);
     }
+  };
+
+  filterButton.onclick = () => {
+    const maxPrice = maxpriceInput.value;
+    if (!maxPrice) {
+      printProductsGrid(products);
+    } else {
+      const filteredProducts = products.filter((product) => product.price <= maxPrice);
+      printProductsGrid(filteredProducts);
+    }
+  };
+
+  clearFiltersButton.onclick = () => {
+    // reset all filter values
+    select.value = 'All';
+    maxpriceInput.value = null;
+
+    // reset product shown
+    printProductsGrid(products);
   };
 };
 
