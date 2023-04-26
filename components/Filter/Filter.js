@@ -2,7 +2,7 @@ import './Filter.css';
 import { sellers, products } from '../../utils/products';
 import printProductsGrid from '../ProductsGrid/ProductsGrid';
 
-let FILTEREDSELLER = '';
+let FILTEREDSELLER = 'All';
 let MAXPRICE = 1000;
 
 const template = `
@@ -55,10 +55,15 @@ const listeners = () => {
 
   filterButton.onclick = () => {
     MAXPRICE = maxpriceInput.value;
+    let filteredProducts = [];
+
     if (!MAXPRICE) {
       printProductsGrid(products);
+    } else if (FILTEREDSELLER === 'All') {
+      filteredProducts = products.filter((product) => product.price <= MAXPRICE);
+      printProductsGrid(filteredProducts);
     } else {
-      const filteredProducts = products.filter(
+      filteredProducts = products.filter(
         (product) => product.seller === FILTEREDSELLER && product.price <= MAXPRICE
       );
       printProductsGrid(filteredProducts);
