@@ -10,7 +10,7 @@
   text-transform: uppercase;
   font-weight: 700;
   z-index: 10;
-  background-color: var(--background-color);
+  background-color: var(--da-color-background-light);
 }
 
 .navbar__menu {
@@ -25,4 +25,25 @@
 
 .navbar__logo {
   height: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar {
+    padding: 1.3rem 3rem;
+    padding-right: 5rem;
+    font-size: 14px;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar-menu-desktop {
+    display: flex;
+    gap: 24px;
+  }
+
+  .navbar__logo {
+    height: 30px;
+  }
 }
