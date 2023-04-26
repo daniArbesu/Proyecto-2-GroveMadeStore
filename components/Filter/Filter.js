@@ -18,7 +18,7 @@ const template = `
     `;
 
 const listeners = () => {
-  const filterBar = document.querySelector('#filter-bar__x');
+  const filterBar = document.querySelector('#filter');
   const filterMenuMobile = document.querySelector('#filter__menu-mobile');
   const select = document.querySelector('#seller-select');
   const maxpriceInput = document.querySelector('#maxprice-filter');
