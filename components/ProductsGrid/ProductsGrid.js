@@ -4,9 +4,11 @@ const template = (products) => {
   return ` 
   <h3>The Walnut Desk Collection</h3>
   <section id="products-grid" class="products-grid">
-  ${products
-    .map(
-      ({ name, price, image, imageHover, newProduct }) => `
+  ${
+    products.length !== 0
+      ? products
+          .map(
+            ({ name, price, image, imageHover, newProduct }) => `
       <article class="shop-product">
                 ${newProduct ? '<div class="shop-product__badge">NEW</div>' : ''}
                   <a
@@ -32,8 +34,10 @@ const template = (products) => {
                   </a>
                 </article>
           `
-    )
-    .join('')}
+          )
+          .join('')
+      : '<h3>No results found</h3>'
+  }
     </section>
     `;
 };
