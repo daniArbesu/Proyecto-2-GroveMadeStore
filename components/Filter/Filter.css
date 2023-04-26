@@ -2,14 +2,14 @@
   padding: 30px 0;
 }
 
-.filter > span {
+.filter-bar > span {
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.filter > img {
+.filter-bar > img {
   transform: rotate(45deg);
   width: 7px;
   display: inline-block;
