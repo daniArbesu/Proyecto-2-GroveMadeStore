@@ -10,14 +10,12 @@ const template = `
 <span>FILTER</span>
 <img class="filter-bar__x" id="filter-bar__x"src="https://grovemade.com/static/img/icons/x.svg?_v=1500009016.84" alt="Close button" aria-label="Close Filter">
 </div>
-<div class="filter__menu-mobile" id="filter__menu-mobile">
+<div class="filter__menu" id="filter__menu">
 <select id="seller-select" class="seller-select">
   ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`)}
 </select>
-<br>
 <input type="number" placeholder="Max. price $" id="maxprice-filter">
 <button id="filter-search" class="cta">Search</button>
-<br>
 <button id="clean-filter" class="cta">Clean Filters</button>
 </div>
     `;
@@ -25,7 +23,7 @@ const template = `
 const listeners = () => {
   const filterBar = document.querySelector('#filter-bar');
   const filterBarX = document.querySelector('#filter-bar__x');
-  const filterMenuMobile = document.querySelector('#filter__menu-mobile');
+  const filterMenuMobile = document.querySelector('#filter__menu');
   const select = document.querySelector('#seller-select');
   const maxpriceInput = document.querySelector('#maxprice-filter');
   const filterButton = document.querySelector('#filter-search');
@@ -33,7 +31,7 @@ const listeners = () => {
 
   filterBar.onclick = () => {
     if (filterMenuMobile.style.display === 'none') {
-      filterMenuMobile.style.display = 'block';
+      filterMenuMobile.style.display = 'flex';
       filterBarX.style.transform = 'rotate(90deg)';
     } else {
       filterMenuMobile.style.display = 'none';

@@ -17,13 +17,15 @@
   margin-left: 5px;
 }
 
-.filter__menu-mobile {
+.filter__menu {
   display: none;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  gap: 1rem;
 }
 
 .seller-select {
-  font-size: 0.9rem;
-  margin: 2rem 2rem;
   background-color: transparent;
   cursor: pointer;
 }
