@@ -124,3 +124,8 @@ h5 {
     margin-bottom: 18px;
   }
 }
+
+::selection {
+  background: rgba(246, 147, 104, 0.8);
+  color: #fff;
+}
