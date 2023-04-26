@@ -24,7 +24,8 @@
 }
 
 .navbar__logo {
-  height: 20px;
+  width: 130px;
+  height: 11px;
 }
 
 @media screen and (min-width: 576px) {
@@ -44,6 +45,7 @@
   }
 
   .navbar__logo {
-    height: 30px;
+    width: 200px;
+    height: 17px;
   }
 }
