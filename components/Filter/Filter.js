@@ -24,6 +24,7 @@ const template = `
 
 const listeners = () => {
   const filterBar = document.querySelector('#filter-bar');
+  const filterBarX = document.querySelector('#filter-bar__x');
   const filterMenuMobile = document.querySelector('#filter__menu-mobile');
   const select = document.querySelector('#seller-select');
   const maxpriceInput = document.querySelector('#maxprice-filter');
@@ -33,8 +34,10 @@ const listeners = () => {
   filterBar.onclick = () => {
     if (filterMenuMobile.style.display === 'none') {
       filterMenuMobile.style.display = 'block';
+      filterBarX.style.transform = 'rotate(90deg)';
     } else {
       filterMenuMobile.style.display = 'none';
+      filterBarX.style.transform = 'rotate(45deg)';
     }
   };
 
