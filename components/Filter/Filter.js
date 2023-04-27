@@ -11,11 +11,17 @@ const template = `
 <img class="filter-bar__x" id="filter-bar__x"src="https://grovemade.com/static/img/icons/x.svg?_v=1500009016.84" alt="Close button" aria-label="Close Filter">
 </div>
 <div class="filter__menu" id="filter__menu">
+<div class="seller-select__wrapper">
+<label for="seller-select">Choose a seller:</label>
 <select id="seller-select" class="seller-select">
   ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`).join('')}
 </select>
+</div>
 <div class="price-filter-wrapper">
-<input type="number" placeholder="Max. price $" id="maxprice-filter">
+<div class="maxprice-filter__wrapper">
+<label for="maxprice-filter">Filter by max. price:</label>
+<input type="number" placeholder="Max. price $" id="maxprice-filter" class="maxprice-filter">
+</div>
 <button id="filter-search" class="cta">Search</button>
 </div>
 <button id="clean-filter" class="cta">Clean Filters</button>

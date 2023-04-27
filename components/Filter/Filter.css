@@ -32,10 +32,24 @@
   cursor: pointer;
 }
 
+.seller-select__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.maxprice-filter__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
 .price-filter-wrapper {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   gap: 16px;
 }
 
@@ -65,6 +79,10 @@
   }
   .filter-bar > img {
     width: 11px;
+  }
+  .seller-select,
+  .maxprice-filter {
+    font-size: 1rem;
   }
   .cta {
     font-size: 14px;
