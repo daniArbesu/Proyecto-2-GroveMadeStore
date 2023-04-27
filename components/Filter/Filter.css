@@ -38,13 +38,19 @@
 }
 
 .cta {
+  cursor: pointer;
   border: 0;
   background-color: inherit;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
   text-decoration: underline;
-  text-underline-offset: 8px;
+  text-underline-offset: 0.5em;
+  transition: all 0.5s ease 0s;
+}
+
+.cta:hover {
+  text-underline-offset: 0.2em;
 }
 
 @media screen and (min-width: 576px) {
