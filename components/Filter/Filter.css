@@ -18,11 +18,13 @@
 }
 
 .filter__menu {
+  padding: 1.5rem 0;
   display: none;
   flex-direction: column;
-  padding: 1rem 1.5rem;
   font-size: 0.9rem;
   gap: 1.5rem;
+  max-width: 14rem;
+  margin: 0 auto;
 }
 
 .seller-select {
@@ -32,9 +34,13 @@
 
 .price-filter-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 16px;
+}
+
+.price-filter-wrapper > input {
+  width: 7rem;
 }
 
 .cta {

@@ -12,7 +12,7 @@ const template = `
 </div>
 <div class="filter__menu" id="filter__menu">
 <select id="seller-select" class="seller-select">
-  ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`)}
+  ${sellers.map((seller) => `<option value=${seller} >${seller}</option>`).join('')}
 </select>
 <div class="price-filter-wrapper">
 <input type="number" placeholder="Max. price $" id="maxprice-filter">
